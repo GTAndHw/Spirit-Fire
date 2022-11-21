@@ -4,7 +4,9 @@
     "dependencies": {
         "device": "*",
         "arcade-background-scroll": "github:microsoft/arcade-background-scroll#926e12eefffd09d453c7cde73f8d6ebd0e666d9d/",
-        "pxt-status-bar": "github:jwunderl/pxt-status-bar"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar",
+        "controller": "*",
+        "sprite-scaling": "*"
     },
     "files": [
         "main.blocks",
@@ -24,12 +26,12 @@
         "branch": "v1.8.22",
         "tag": "v1.8.22",
         "commits": "https://github.com/microsoft/pxt-arcade/commits/6017af228c87817006b555668c65933bf3cbff4c",
-        "target": "1.8.22",
+        "target": "1.10.36",
         "pxt": "7.4.26",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "blocksprj"
 }
